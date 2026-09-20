@@ -67,7 +67,7 @@ export default function Hero() {
 
             <div className="fade-in-up fade-in-up-delay-4 flex flex-wrap gap-3">
               <a
-                href="mailto:rahaf.binTaleb@gmail.com"
+                href="mailto:Rahaf.BinTaleb@gmail.com"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-medium text-sm transition-all duration-200"
                 style={{
                   background: "var(--pink)",

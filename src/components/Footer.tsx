@@ -61,7 +61,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="mailto:rahaf.binTaleb@gmail.com"
+            href="mailto:Rahaf.BinTaleb@gmail.com"
             className="inline-flex items-center gap-2.5 px-6 py-3 rounded-full text-sm font-medium transition-all duration-200"
             style={{
               background: "rgba(244,114,182,0.12)",

@@ -1,14 +1,14 @@
 // Mobile Projects
-import easyrideImage from "/assets/projects/EasyRide-project-image.jpg";
-import healthcareImage from "/assets/projects/Healthcare-project-image.jpg";
-import weatherImage from "/assets/projects/Weather-project-image.jpg";
-// Web Projects
-import authSystemImage from "/assets/projects/WebAuthenticationSystem-project-image.jpg";
-import littleLemonImage from "/assets/projects/LittleLemon-project-image.jpg";
-import toDoListImage from "/assets/projects/ToDoList-project-image.jpg";
-import airlineBookingImage from "/assets/projects/AirlineBooking-project-image.jpg";
-import calculatorImage from "/assets/projects/Calculator-project-image.jpg";
+const easyrideImage = "/assets/projects/EasyRide-project-image.jpg";
+const healthcareImage = "/assets/projects/Healthcare-project-image.jpg";
+const weatherImage = "/assets/projects/Weather-project-image.jpg";
 
+// Web Projects
+const authSystemImage = "/assets/projects/WebAuthenticationSystem-project-image.jpg";
+const littleLemonImage = "/assets/projects/LittleLemon-project-image.jpg";
+const toDoListImage = "/assets/projects/ToDoList-project-image.jpg";
+const airlineBookingImage = "/assets/projects/AirlineBooking-project-image.jpg";
+const calculatorImage = "/assets/projects/Calculator-project-image.jpg";
 
 export interface Experience {
   title: string;
@@ -81,6 +81,17 @@ export const projects: Project[] = [
     enabled: true,
   },
   {
+    title: "Web Authentication System",
+    subtitle: "Full-stack web application",
+    technologies: ["React", "Vite", "Friebase", "Bootstrap"],
+    description:
+      "This web authentication system offers a secure and user-friendly experience with features like email and Google sign-in. It supports light and dark themes, and includes password recovery and email verification.",
+    image: authSystemImage,
+    github: "https://github.com/rahafbt/Web-Authentication-System/tree/master",
+    category: "web",
+    enabled: true,
+  },
+  {
     title: "Health Care",
     subtitle: "Android mobile application",
     technologies: ["Java", "Friebase"],
@@ -101,17 +112,6 @@ export const projects: Project[] = [
     github: null,
     category: "web",
     enabled: false,
-  },
-  {
-    title: "Web Authentication System",
-    subtitle: "Full-stack web application",
-    technologies: ["React", "Vite", "Friebase", "Bootstrap"],
-    description:
-      "This web authentication system offers a secure and user-friendly experience with features like email and Google sign-in. It supports light and dark themes, and includes password recovery and email verification.",
-    image: authSystemImage,
-    github: "https://github.com/rahafbt/Web-Authentication-System/tree/master",
-    category: "web",
-    enabled: true,
   },
   {
     title: "Little Lemon",
@@ -136,17 +136,6 @@ export const projects: Project[] = [
     enabled: true,
   },
   {
-    title: "Airline Booking",
-    subtitle: "Frontend Web Application",
-    technologies: ["HTML", "CSS", "JavaScript", "PHP"],
-    description:
-      "This Airline Booking website offers users the ability to book and view airline tickets.",
-    image: airlineBookingImage,
-    github: null,
-    category: "web",
-    enabled: true,
-  },
-  {
     title: "Calculator",
     subtitle: "Frontend Web Application",
     technologies: ["React", "Vite", "Bootstrap"],
@@ -154,6 +143,17 @@ export const projects: Project[] = [
       "This simple calculator website offers a sleek and functional design with support for both light and dark modes.",
     image: calculatorImage,
     github: "https://github.com/rahafbt/Calculator/tree/main",
+    category: "web",
+    enabled: true,
+  },
+  {
+    title: "Airline Booking",
+    subtitle: "Frontend Web Application",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP"],
+    description:
+      "This Airline Booking website offers users the ability to book and view airline tickets.",
+    image: airlineBookingImage,
+    github: null,
     category: "web",
     enabled: true,
   },

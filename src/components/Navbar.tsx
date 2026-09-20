@@ -67,7 +67,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="mailto:rahaf.binTaleb@gmail.com"
+            href="mailto:Rahaf.BinTaleb@gmail.com"
             className="text-sm font-medium px-4 py-1.5 rounded-full transition-all duration-200"
             style={{
               background: "rgba(244,114,182,0.12)",

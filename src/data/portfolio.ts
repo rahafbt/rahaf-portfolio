@@ -1,5 +1,5 @@
 // Mobile Projects
-import easyrideImage from "../imports/EasyRide-project-image.jpg";
+const easyrideImage = "/assets/projects/EasyRide-project-image.jpg";
 const healthcareImage = "/assets/projects/Healthcare-project-image.jpg";
 const weatherImage = "/assets/projects/Weather-project-image.jpg";
 

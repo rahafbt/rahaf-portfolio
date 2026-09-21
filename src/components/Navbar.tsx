@@ -139,7 +139,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="mailto:rahaf@example.com"
+            href="mailto:Rahaf.BinTaleb@gmail.com"
             className="mt-2 text-center text-sm font-medium py-2.5 rounded-full"
             style={{
               background: "rgba(244,114,182,0.12)",

@@ -9,7 +9,7 @@ function SkillPill({ name, accent }: { name: string; accent?: "pink" | "yellow" 
   };
   const yellowStyle = {
     background: "rgba(251,191,36,0.08)",
-    color: "rgba(251,191,36,0.75)",
+    color: "rgba(251, 191, 36, 0.75)",
     border: "1px solid rgba(251,191,36,0.12)",
   };
   const defaultStyle = {
